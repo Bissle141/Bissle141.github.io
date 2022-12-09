@@ -1,0 +1,155 @@
+/* Most Desktops view */
+@media (min-width:801px) {
+    h1 {
+        text-align: center;
+        font-family: Coiny;
+        font-size: 5rem;
+
+        color: #EBF2E6;
+    }
+
+    h2 {
+        font-family: VT323;
+        font-size: 4rem;
+
+        color: #A2BF91;
+    }
+
+    h3 {
+        font-family: Coiny;
+        font-size: 2rem;
+        text-align: center;
+
+        color: #EBF2E6;
+    }
+
+    #active-project-title{
+        font-size: 4rem;
+    }
+
+    hr {
+        border: 4px solid #A2BF91;
+        background-color: #A2BF91;
+    }
+
+    p , ul>li{
+        font-family: VT323;
+        font-size: 2rem;
+
+        color: #EBF2E6;
+    }
+
+
+
+    body {
+        background-color: #6F8461;
+        width: 100vw;
+        
+        overflow-x: hidden;
+    }
+
+    #nav-bar {
+        z-index: 2;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        height: 100px;  
+        top: 0;
+        right: 0;
+        width: 100vw;
+
+        background: #A2BF91;
+    }
+
+    #desktop-nav {
+        width: 90%;
+
+        display: flex;
+        justify-content: space-between;
+
+        font-family: VT323;
+        font-size: 3rem;
+    }
+
+    #desktop-nav > a {
+        color: #EBF2E6;
+        text-decoration: none;
+    }
+
+    #desktop-nav > a:hover{
+        color: #FFD38B;
+    }
+
+
+    .section {
+        position: absolute;
+        width: 100vw;
+        height: calc(100vh - 100px);
+        top: 100;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .half-width-view-port {
+        box-sizing: content-box;
+
+        width: 50%;
+        height: 100;
+
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: center;
+
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .container{
+        flex: content;
+        align-self: center;
+        justify-self: center;
+
+        background: rgba(162, 191, 145, 0.6);
+        border-radius: 30px;
+
+        width: 100%;
+        min-width: min-content;
+        height: 85%;
+
+        padding: 25px;
+        margin: 10px;
+    }
+
+    #thankyougraphic {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        height: fit-content;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #thankyougraphic>img{
+        width: 70%;
+    }
+
+    #thankyoucontainer {
+        height: fit-content;
+        min-width: 550px;
+    }
+    
+}
+
+
+/* Phone/tablet view */
+@media (max-width: 800px) {
+
+}

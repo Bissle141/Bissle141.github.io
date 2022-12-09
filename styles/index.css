@@ -336,6 +336,30 @@
         top: -100px;
         left: 0;
     }
+
+    #thankyouSection {
+        width: 95%;
+        justify-content: space-around;
+    }
+
+    #thankyouSection>.container {
+        padding: 20px;
+        margin: 20px;
+
+        height: fit-content;
+        width: 50vw;
+    }
+
+    #thankyougraphic{
+        width: 40%;
+        align-content: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    #thankyougraphic>img {
+        width: 90%;
+    }
     
 }
 
