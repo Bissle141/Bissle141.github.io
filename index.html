@@ -4,9 +4,407 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resetCss.css">
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coiny">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+
     <title>My Portfolio</title>
 </head>
+
 <body>
-    <h1>Alyssa Black</h1>
+    <section id="nav-bar">
+        <div id="desktop-nav"> 
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!-- for phone view, make vis only in phone view and make the others invis -->
+        <div id="phone-nav">
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        
+    </section>
+
+    <section id="mainSection" class="section">
+
+       <div class="half-width-view-port">
+            <div id="title-card-holder">
+                <h2>Alyssa Black</h2>
+                <h1>Python Full Stack Developer</h1>
+                <hr>
+            </div>
+        </div>
+
+        <div class="half-width-view-port">
+            <div id="main-graphic-holder">
+                <img src="https://lh3.googleusercontent.com/HEfygXo__Sghf188GHManajQ5YEgm3IHpE4hqHjjyuzIvwGKl1MIOdlRBVNGZ0-ysBk8Lc-NWHBLQHE4AkORL7kJuf0zkV_kHQMmozTrzeE6VUkrJPrYFtAsBKwRBFyXZpWSB8ZwcB_Itw-T70ZUzQW3keWI25HlkABQ5C2JbMA6_6yDb1JUUqUwlKsUT6DTILQCgolMdemeK9HDvWdoWo9C3yaIWRGltLRML6jHCHvk0LIft-a1Lc2hIWtmzyj5rHCwnhWlIMu4Vn7mvL8qdvroQV1htl7qmbAhDgptAhNQ05LE0kNn5Xa4NmmHgikRgCIq0mw0h2XRiAV3quEr1P_JVCjZIVX7KMXPy2YcikjXVHFy4zagbv1m7XsnvepvuncdDxT7SDzNmi7IllBGRs7B4J2s9oRKMc1fq3QdwByEPOrqfxWaoJ1PZAR8CQ8gejzfnhEuvF7ocAy6kCcxKGDZkdDSPFEBzu84fQQWpVuft1ehI92axE7YMiZywq4CGC95I1fP62afYJXrJWFXcTWzXVqUmUqrOGCznXlGdc_qq2iMgUgsTT0VZLwKpVHT_k195FAMeDuUOJvQ-pbZnX5G-3CA-vzdQzcMZmWfejuoprtoGIt_yDOTn1tZgpqhiqVkZVFPDxCUJftAvqe2XwrS-rN7IDuC9nYLhgME8G3Iv5FDEOyE_s7_OLNINVvUYlE0qYGVDqrhTnrteDyKSnSCLvzSBAADZlW_ZCPYTl2vbQtxrh7tNlU-0ASqlXYgg9Xb1fRRkdE9h_aLt2uxDjcJgD_HCTi8XHLD3RaPeA13r_nZJlxsJO4_q2m_jyOmBxXKYbVp9ci_P1eZprnVSZ0kcHqh-ZBFGkdbQfUreQuj4L6XYca2nXZr934WSmekKzTu3ngcICvttxJehHeJkK3bhpOl5r6-l6IXW9CWC3AT=s572-no?authuser=0" alt="Woman working at computer graphic, credits to Canva and accociates.">
+    
+                <p id="main-graphic-blurb">I'm a full stack python developer, focused on creating effective dynamic applications.</p>
+            </div>
+        </div>
+
+                
+    </section>
+    
+    <!-- ABOUT SECTION -->
+    <section id="aboutSection" class="section">
+        <div class="anchor" id="About"></div>
+
+        <!-- big about me box -->
+        <div id="about-me-holder" class="half-width-view-port">
+            <section id="about-me-section">
+
+                <div id="about-me" class="container">
+                    <h1>About Me</h1>
+                    <hr>
+                    <p class="body-text"> 
+                        Grew up in: Washinton <br>
+                        Now living in: Utah Valley <br><br>
+    
+                        **Personal background**
+                    </p>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- left about me section, split in half -->
+        <div class="half-width-view-port">
+            <div class="quarter-view-port">
+                
+                <div id="hobbies" class="quart-container un-collapsed">
+                    <h3>Hobbies</h3>
+                    <hr>
+                    <ul>
+                        <li>- Gaming</li>
+                        <li>- Reading</li>
+                        <li>- Writing</li>
+                        <li>- Book Binding</li>
+                        <li>- Coding</li>
+                    </ul>
+                </div>
+
+                <div id="fun-facts" class="quart-container un-collapsed">
+                    <h3>Fun Facts</h3>
+                    <hr>
+                    <ul>
+                        <li>- I have five siblings</li>
+                        <li>- I'm a 'dog person'</li>
+                        <li>- I may not be the best, but I love a good card game</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="quarter-view-port">
+                <div id="controller-img" class="img-container img">
+                    <img src="https://lh3.googleusercontent.com/R_U5Z0Q371ZJ8MAxCMJV3FVksLh_33JrEnMCQbxBjteolXNgxWoahI7AjWc7zB-gVLkgieuMEyAsAN6WBYf_2mPhF0Y9UsfuIO0JMpCC1tZUsMuLPhrj2-2VYjEWjxNRj6qWIf30MKhnDcXEV4cEQwNkSruxuUTOJ0y8zuYKcIxw8fR9ng6_SSDjLBnjN7bzRELdKtxHM_ZOyNTRAEb9ExURRQ4-XaQuCTlqhEz3Mv-w2wXz-IFh40wggrzL63cN98_3FYoGu_OEi_5EJebiQyq3npurc6QN4lqgVMwOThicqmUQj0iNmG7LDpsTa1wTvlKAHAdYlNteilT8XbahtJMgrGqJUDseROxuOHCEPBOT4UWtxznrpp1VnhDHRufdU_4nM21Uu1-fbOj7kDo1mVZQLV5P765dot5QlgTtVspw_mXMxxr21QTJu7g__-UdMDo_PJakhREh93PC2jcV_g0LPD5uLjcs0KAfpiY88BTelCvHyugQgc6qPvahgVNewinRVZ3Em9Nue7cpthb_57If3VzVYtAuboFgA4apKMTjDYmWmzG1DFPsuGYzoftgaxeZsxrSzVzuF0bxtLxkoZr4uis9A9I2SXV3-qsD7D8Ms5YepWrJuOnQHUoHysobEmhyDAO4HKzKWGjKN6q4y_OTrpbvKf1o0vPO4LfN46ZhNirSoe1ap-w4YuhP1Sb2g6l1GvvZYrX4acAkVlaqp6xs_GibdM919CHu5X0nGK625E01tdcc7oSiW9aelBIktZvzzkgk1cVv4bE4RuMHPcZKN860Wc9sPSq5hQYK16alLwdXWAwgagbfNuHbdpv8SHMPGBUEyi0XXLQF1sJbuptbuNV_Tmyx7xorYcsfvf82ksZ4fsD6FGBAn4YtZ_m2Gkv-qJS9gNYVOOI5aPgkUnjkDESUVEhwbnmW3zoOgvTP=s571-no?authuser=0" alt="Gaming controller" >
+                </div>
+
+                <div id="goals" class="quart-container un-collapsed">
+                    <h3>Goals</h3>
+                    <hr>
+                    <ul>
+                        <li>- Live abroad</li>
+                        <li>- Tour Europe and Asia</li>
+                        <li>- Write a book</li>
+                    </ul>
+                </div>
+
+                <div id="cards-img" class="img-container img">
+                    <img src="https://lh3.googleusercontent.com/cDL22axNeDBE7Gi6w_kOxnP3BKcJ7BLJZ2auDHAGF4XsKVs7bsOYabcKdJCC_GBd9LkRKr3hpu3KGVbqZqfZDlQ1B36LJhs9VxJoEiYOnZY_7ERtXG7WsXB0Q9gXlJICARnjUIfxuHB1KHc_udC9mMCtL8Y-aKwu2lGTF9TQ-R-bloN77BvLDzPWuOkZT46kr7zG1JG90cCjNAqh9a_vpK4IPabJuRbbX1wjzH4qWZkWA_y1W0-2UWGjdrFFkzrI-96nv4tjIFS7DV0jpnfOhMGhlBeCnC0qzXor9Vtgtxnnbt2y_RkOud3_0gLlxXcrIOYhQiJx4NNbFLGebIDCgBDiybwqMmYPuvjx9Q5W8ZvEv9DoNxzMko4dJHr0tcZdGevYIKY54WolxlAmoPExeKWDG4ryFo4LbtwZXcQYCUvYTNscOcwaYmf6E28qWLzvN9LelGD0vMHtyK2A-G5gIA_qxb49neN3X_kMxc-pBUNHJZNJp9awV7f6hlpqlt_984ZLJHpZKJLjJOfjUF6FusD1nv3l-YWlUw6S1KEgNVztwTZnOlgi0ub8_NX98Sw2KQG3jX4uJrKGs_QaZBjH-Qx_oKtX0ZiYEVFSlElOnwpB7xRnehDA2v3vcmepqWy4FCfRYcd4aixYPiKGHkiQwa0-KyPBOmQ19zH8ntoSkd0bxXwOPA2DmEzlDyT2-Ixsr4OK-uA4WhJAgb9ZNT0Me-bcuNyTxA2HJBZPlANfUfbPeSn9HUpn-dMJ7UvUkofHPhC_K9tzw9AO460sU1glGWisfjcNpiAw5uy15Xb47uGwStb8aRs24Rbg9MvTJknR0qStGXP-9AP39-CZIvFP0bYs6DC7zSVInsr3fYflRkkdPNeNjReJjH_FwYG6cWJ65MeEXJ-rQPreaJXFCGrgTRW9V778NiRyoq3C4jx-OhOJ=s571-no?authuser=0" alt="Game cards" >
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <!-- SKILLS SECTION -->
+    <section id="skillsSection" class="section">
+        <div class="anchor" id="Skills"></div>
+        
+        <!-- left skills section, split in two-->
+        
+        <div id="skills-left-div" class="half-width-view-port">
+
+            <div id="skills" class="container">
+                <h1>Skills</h1>
+                <hr>
+                <p class="body-text"> 
+                    **Technical background**
+                </p>
+            </div>
+            
+            <div id="tech-stack" class="container un-collapsed">
+
+                <h3>Tech Stack</h3>
+                    <hr>
+                    <!-- tech icons -->
+                    <ul>
+                        <li>- Gaming</li>
+                        <li>- Reading</li>
+                        <li>- Writing</li>
+                        <li>- Book Binding</li>
+                        <li>- Coding</li>
+                    </ul>
+
+            </div>
+
+        </div>
+        <!-- right skills section -->
+        <div class="half-width-view-port">
+
+            <div class="quarter-view-port">
+                
+                <div id="environment" class="quart-container un-collapsed">
+                    <h3>Environment</h3>
+                    <hr>
+                    <ul>
+                        <li>- Windows 10</li>
+                        <li>- VS Code</li>
+                        <li>- Git Bash</li>
+                        <li>- Opera Browser</li>
+                    </ul>
+                </div>
+
+                <div id="speach-bubbbles-img" class="img">
+                    <img src="https://lh3.googleusercontent.com/ol6F0WBXeRVIVpdpK6KLnEmApgIgk5j5HXnzJaS9ze6fuLjbqhOBlIoOLlUhnrJwVuto1lVMtMwc6j1EEl-tjEvxgJs1hKQ9YOltmotHtw8-2ZkdpxgWfxdD7dxnBG_Z6GApmKRK67auUNtuVftK1CI8vYTKKt_Glo5WlSU_dm1uQASlMUraDY-JsF8lc-PdfWS3gd3w9QuXj4Yi8PYWVGYMAyaE9rdT3o_DMV6Wpq5vCSgztTh3KSce8e9cM97OwzoMhkuipdbZyChVSTXnoNKU5-Hp9s0pyKmjhp-RxiUiJSYmAQSzoF68H6o3tRpECqtjLOKUsXomXZK4Y1oKrynyXDKhyFXBVMkX4C-SdS5VvjhqxeLaRumQ3dviWYL3ONuaZQF7sZED5yWZtolBqPSPlOPQABtdFyYXVMyAlBae5hmJZB-k5x20bE2grwy48ONM45Xj5XukPg1AnJjPUYs6oMZpQAm-VADWlum4ICSyRAa5ZjpBa6KbUrrQ3pV7jsjfvBSr9OMVCNMRSlUfBWaAvr1bt42K1iLdcKLyDhPFlswPxbqfysZsFkfxEw8618VW6VKWJHESErXgXmVdNZOPITyO-nCZuUiejamOHIyef2zhm7JGA2iJt9MeV35fCFhCTRoSrMeIkJXpdhq5kh3maiNr4NI2rXqD9hcyWDDp2NWGB884LkYi6dAn3kLkI_RqjrUIQeXkXdc9qhYvCZHUydPlYBLqa1dhNdd2N8GvELRzYEVFHDKSnxYtMuOdZeEGjG3LjibDXABeJm9ak7ZTdpwTJo2BAiJdjr7j1YWoOsyS96dr7ZhoD_fDHZpTrQy2kqTKbjIlnIkG63QlfebJg-lmQFeJEMKB6D9HtG9cZ-PVXJcnF1YjeT2XreapHE9XvMg2bqlmUXK7N0UsCW60XcnmLLjuJ6r4aNb1joVi=s572-no?authuser=0" alt="Speech Bubbles Graphic">
+                </div>
+                
+            </div>
+           
+            <div class="quarter-view-port">
+                
+                <div id="keyboard-img" class="img">
+                    <img src="https://lh3.googleusercontent.com/ippeGnidzI7TkGCcnGSRrpjHbras6OoscORxRqCJdUD9VIVkjRpMzdI_kENRt1w9Tv5kspvrpK2Py7CO8mB4osEvJ2i6aCRphV954qzCS4UH8xbrGiR51lUQbDfwPvxQKm70K8ApP8YfV0wWDVNgwr9ZH2sC-DMbWfBrN7FxdQ2jIKhUqrTQdsh7th6EN8IYDhtZEYY20NNXaaWqt-5-o8Fd6G4Fk7ZtKnOST3nhSobmX9fVPoX6OqoGb6XmzZ-k4XLH691wNwjp2RvcWZUv7qWRjB3wp9EcebRKY-bA3mTRvWvP3QpRp0bxzopo1VTw_FxxpsYQuYCeGhy2ns9C2bXVpu4pozBDdW1oOPxwTIrBrmSTTyb3IGuHeHw9hzfmzb_qjjm6kVA0z47oPRleLTUWM7YBOxI2HKbx80hyXEyOxsPVnZEWYTPQ3x4ff_t7hZZzP3dawv9SieLVFuwmxpbIIpjVx-4SSfXvF5Z16bSiNRDE01W7y6cLfXiY3230_h6Bryb2aLThyDS6pEgLEiwe7NC7tmAJ2AT-d-Xs254FIjMpM4Y-8y8EV272BA3RGptk_Rmj9vKgoapY_IiehRPMO6nKG0Tg8Y4e98McXTMqcpY_vdrsOsZyuAiD5o6ekXMvkpSPGHBeYLvdVAW_6_FSiIrNjVObEpRENSuhZEWIZxZwSUtVj-jTAcWGkcaOO2AcOHCGdV1MEGNRB95yN_fJkxrNCmW2tG79or0jBJF_TAaBZG6vmhel7dQEH95G_pm3znlWaoWqzpVYOKf25KYk__CQyV6aWuNlKBIrVU6aAXRNsBFxBbMvPqA-P2z11WLiBpbhkUYKw3cBTtJdjK_XWghd7ZrPgAZijl-FBqvNQNKxRiznJwVMrWLvWWzRXJ3EkvbW8QA2uKJQxE_Gvr3X-AI2Tk8eEWUw65fEAzj_=s572-no?authuser=0" alt="Keyboard graphic">
+                </div>
+ 
+                <div id="soft-skills" class="quart-container un-collapsed">
+                    <h3>Soft Skills</h3>
+                    <hr>
+                    <ul>
+                        <li>- List Item</li>
+                        <li>- List Item</li>
+                        <li>- List Item</li>
+                        <li>- List Item</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- PROJECT SECTION -->
+    <section id="projectSection" class="section">
+        <div class="anchor" id="Projects"></div>
+        
+        <div class="half-width-view-port">
+
+            <!-- becomes inactive and invis when on smaller screen -->
+            <div id="project-display" class="container active">
+                <h1 id="active-project-title">Project Name</h1>
+                <hr>
+
+                <!-- either image or demo video -->
+                <div id="project-media-container">
+                </div>
+                
+                <!-- techstack Icons to be entered -->
+                <div class="project-tech-stack">
+                    <div class="tech-stack-container">
+                        <div id="tech-stack-icon"></div>
+                    </div>
+                    <div class="tech-stack-container">
+                        <div id="tech-stack-icon"></div>
+                    </div>
+                    <div class="tech-stack-container">
+                        <div id="tech-stack-icon"></div>
+                    </div>
+                </div>
+
+                <p id="project-description">Desc...</p>
+            </div>
+
+        </div>
+
+        <div class="half-width-view-port">
+            
+            <div class="quarter-view-port">
+
+                <div class="quart-container un-collapsed">
+                    <h3>Project Name</h3>
+                    <hr>
+
+                    <!-- either image or demo video -->
+                    <div id="project-media-container">
+                    </div>
+
+                    <!-- techstack Icons to be entered inactive and incis unless on phone view-->
+                    <div class="project-tech-stack inactive">
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                    </div>
+
+                    <!-- activated when clicked and linked project is being displayed, becomes invis when on small screens -->
+                    <button class="info-btn inactive">Info</button>
+                    <button><a href="">Link</a></button>
+                    <button><a href="">GitHub</a></button>
+
+                </div>
+
+                <div class="quart-container un-collapsed">
+                    <h3>Project Name</h3>
+                    <hr>
+
+                    <!-- either image or demo video -->
+                    <div id="project-media-container">
+                    </div>
+
+                    <!-- techstack Icons to be entered inactive and incis unless on phone view-->
+                    <div class="project-tech-stack inactive">
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                    </div>
+
+                    <!-- activated when clicked and linked project is being displayed, becomes invis when on small screens -->
+                    <button class="info-btn inactive">Info</button>
+                    <button><a href="">Link</a></button>
+                    <button><a href="">GitHub</a></button>
+
+                </div>
+            </div>
+
+            <div class="quarter-view-port">
+
+                <div class="container un-collapsed">
+                    <h3>Project Name</h3>
+                    <hr>
+
+                    <!-- either image or demo video -->
+                    <div id="project-media-container">
+                    </div>
+
+                    <!-- techstack Icons to be entered inactive and incis unless on phone view-->
+                    <div class="project-tech-stack inactive">
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                    </div>
+
+                    <!-- activated when clicked and linked project is being displayed, becomes invis when on small screens -->
+                    <button class="info-btn inactive">Info</button>
+                    <button><a href="">Link</a></button>
+                    <button><a href="">GitHub</a></button>
+
+                </div>
+
+                <div class="container un-collapsed">
+                    <h3>Project Name</h3>
+                    <hr>
+
+                    <!-- either image or demo video -->
+                    <div id="project-media-container">
+                    </div>
+
+                    <!-- techstack Icons to be entered inactive and incis unless on phone view-->
+                    <div class="project-tech-stack inactive">
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                        <div class="tech-stack-container">
+                            <div id="tech-stack-icon"></div>
+                        </div>
+                    </div>
+
+                    <!-- activated when clicked and linked project is being displayed, becomes invis when on small screens -->
+                    <button class="info-btn inactive">Info</button>
+                    <button><a href="">Link</a></button>
+                    <button><a href="">GitHub</a></button>
+
+                </div>
+            </div>
+            
+        </div>        
+
+    </section>
+    
+    <section id="contactSection" class="section">
+        <div class="anchor" id="Contact"></div>
+
+        <div id="email-me-container" class="container">
+            <h1>Email Me</h1>
+            <hr>
+            <form action="submit">
+
+                <input type="text" placeholder="Name" maxlength="40">
+                <input type="text" placeholder="Email" maxlength="40">
+                <textarea name="message" id="emailMessage" cols="30" rows="10" placeholder="Message..."></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+
+            <div id="socials">
+            
+                <p>You can also find my on:</p>
+                <div id="social-links">
+                    <div class="socialbtn" id="github-btn"><a href="https://github.com/Bissle141">
+                        <svg viewBox="0 0 128 128" width="65">
+                            <g fill="#6F8461"><path class="toDarkGreen" fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path><path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path></g>
+                        </svg>
+                    </a></div>
+                    <div class="socialbtn" id="linkedin-btn"><a href="https://www.linkedin.com/in/alyssablackdev/">
+                        <svg viewBox="0 0 128 128" width="50">
+                            <path class="toDarkGreen" fill="#6F8461" d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3z"></path>
+                            <path fill="#fff" d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 11-10.5 10.49 10.5 10.5 0 0110.5-10.49M50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z"></path>
+                        </svg>
+                    </a></div>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div id="contact-me-graphic">
+
+            <img src="https://lh3.googleusercontent.com/KU9ivzxXBiutWw7bs3AA0CmA-QJBnGFy736VIVRoe4qIgp-R9CxbAoPuA2D8arZZoMg2jZ1EAnI13Rz4BpPivG6UoTeWeqsqD_mySid0zWEvOfCSAB9NPaueARAtSrzXXxNcz88yC4q2pb8oWuJCg-n3H_7Q6LQdANHAx1VR6ewYDYcL-MOxOrcyYBf3Z80E94IB-5HwxWVXsaCVeHVqA8XL7QdUzeEDhbpcVWdO74qBNexhVZ2gN5LRYFd3OVGnon-A0L22s8EXaJZkWZxnt9vs32zN0rqgSi_RV9SSp50ikP5OSNS3YOiRo7yjnsBuS9O1R07fgn7MayTN-6wcRhzn6EMu69ozlrNPdvQHkJo44Vaut7dlJcxmMIXiNO4HaPtkbt3He-nkeDHYlvh7oBJe0nDg5svwdfM3lMZ-2J1sJdpFLFwKjEefCxm_p5-BaqHWZtd3h8-KTxvl_d8GCqu8NJFBvYVkfcdl5eD5yUIV2RT9110OqeiNYTnYkfnTW4HnnBNhdfd92sxydpokm4mKZbI4kp291dTZnuFj_gCKc44S-jFAOZv6ewPcXwfzyghYAqwUYjqjA9MYo4RLmmoW-0ja86unahuDebWAY5UXRARtCZyu6bvdi_HEAIILToUAcJG9Tr22ae2saLeRzQsSzX8JxbE9jjOW0kxLdDDrEZjAD33ytirg2CR3Te0xnn9AbmupoUVy4XB_k9hU8HNSx1UXuErhoyo3xlfnQ3ArkM-UCqd_GxetQVkIXHjJ66Uu8Qt9PuWNChiPCqzdCrjMptV_8jlb3be7M0CRoDtAmeWqAki0P4dfe2sILJ9sCPdjbkkRvXHzyH40a0fV6qHigM25zROw01f1gOLWYoJY-Uw67UVu_WB8PvkEjzl0CjhSrgJYAHK_Ri82nQSuwsXcP-ABHXQZ85EualgeKMv5=w773-h1010-no?authuser=0" alt="girl smiling, saying she looks forward to meeting you.">
+        </div>
+
+
+    </section>
+    
+    <link rel="stylesheet" href="./index.js">
 </body>
 </html>
