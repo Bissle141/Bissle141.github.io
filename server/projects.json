@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Dragon's Keep",
+        "desc": "This project is a single-page full-stack application I've created to demonstrate what I've learned over the course of my first 8 weeks at the coding camp Devmountain.",
+        "tech stack": ["js", "html", "css", "node", "exp", "npm"],
+        "demo_link": "https://www.youtube.com/embed/oBbiBo4XeeU",
+        "graphic_link": "",
+        "site_link": ""
+    },
+    
+    {
+        "title": "",
+        "desc": "",
+        "tech stack": [],
+        "demo_html": "",
+        "graphic_link": "",
+        "site_link": ""
+    },
+    
+    {
+        "title": "",
+        "desc": "",
+        "tech stack": [],
+        "demo_html": "",
+        "graphic_link": "",
+        "site_link": ""
+    }
+]
