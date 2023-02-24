@@ -413,10 +413,8 @@
         background-color: #EBF2E6;
         border: 10px solid #A2BF91;
         border-radius: 10px;
-        height: 50%;
         margin-right: 10px;
         margin-bottom: 10px;
-        border-radius: 10px;
     }
 
     .project-media-container>iframe { 
@@ -443,12 +441,14 @@
     }
 
     .project_containter {
-        min-width: 900px;
         width: 85vw;
-        min-height: 650px;
-        height: 80vh;
-        background: rgba(162, 191, 145, 0.6);
+        min-width: 900px;
 
+        height: 80vh;
+        min-height: 650px;
+        
+        background: rgba(162, 191, 145, 0.6);
+        
         display: flex;
         flex-direction: row;
         

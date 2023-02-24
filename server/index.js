@@ -36,15 +36,13 @@ window.addEventListener('load', () => {
     function updateProject(projectIndex) {
         // Pop techstack
         var techStackLi = '';
-
         for (let index = 0; index < projectList[projectIndex].tech_stack.length; index++) {
             techStackLi += `<li style="padding-left:10px;">* ${projectList[projectIndex].tech_stack[index]}</li>`   
         }
-        
         techStackUl.innerHTML = techStackLi
 
         // Pop demo-link
-        demoVideo.innerHTML =projectList[projectIndex].demo_embed
+        demoVideo.innerHTML = projectList[projectIndex].demo_embed
 
         // Pop title
         projectTitleText.innerHTML = projectList[projectIndex].title
@@ -66,7 +64,6 @@ window.addEventListener('load', () => {
     updateProject(projectIndex)
     
     rightArrow.addEventListener('click', function () {
-        console.log(projectIndex)
         if (projectIndex + 1 >= projectList.length) {
             projectIndex = 0 
         }
@@ -75,8 +72,8 @@ window.addEventListener('load', () => {
         }
         updateProject(projectIndex)
     })
+    
     leftArrow.addEventListener('click', function () {
-        console.log(projectIndex)
         if (projectIndex == 0) {
             projectIndex = projectList.length - 1
         }
